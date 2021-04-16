@@ -19,7 +19,7 @@ subscriberServer.post('/test1', jsonParser, function(req, res) {
 });
 
 subscriberServer.post('/test2', jsonParser, function(req, res) {
-    console.log('Received a post on /test1 endpoint: ' + req.body.message);
+    console.log('Received a post on /test2 endpoint: ' + req.body.message);
 
     res.send({
         status: 'success',

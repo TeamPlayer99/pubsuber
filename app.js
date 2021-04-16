@@ -1,6 +1,3 @@
-require('dotenv').config();
-require('./db.js');
-
 var subscriberServer = require('./server/subscriberServer');
 
 var publisherServer = require('./server/publisherServer');
